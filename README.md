@@ -5,7 +5,7 @@
   
   </p>
   
-<p align="center">
+<p align="center">Pablo - 
   
    <a href="https://www.npmjs.com/package/sneaks-api" alt="Version">
         <img src="https://img.shields.io/npm/v/sneaks-api" /></a>
