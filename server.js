@@ -53,6 +53,17 @@ app.get('/search/:shoe', (req, res) => {
     });
 });
 
+
+app.get('/shoes2', function(req, res){
+    sneaks.findAll( function(error, products){
+        if (error) {
+            console.log(error)
+            res.send("No Products In Database");
+          } else {
+            res.json(products);
+          }
+    })
+});
 // 5 Obtener todas las zapatillas en la base de datos
 app.get('/shoes', (req, res) => {
     sneaks.findAll((error, products) => {
